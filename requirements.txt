@@ -3,6 +3,8 @@ matplotlib
 numpy
 seaborn
 nbgrader
+jupyterlab
+notebook
 # jupyterlab-lsp
 # jupyterlab-git
 # RISE
@@ -12,4 +14,4 @@ nbgrader
 # jupyterlab-link-share
 # python-lsp-server
 # pyright
-# jupyter_contrib_nbextensions
+jupyter_contrib_nbextensions

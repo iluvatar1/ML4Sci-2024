@@ -83,10 +83,6 @@ RUN echo 'eval "$(starship init bash)"' >> ${HOME}/.bashrc
 # Clone the lectures repo
 #RUN git clone REPO
 
-# Install jupyterlab extensions
-COPY postBuild /tmp/postBuild
-RUN /tmp/postBuild
-
 # Configure zsh
 # Install Zim
 RUN curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
@@ -95,3 +91,7 @@ RUN echo 'eval "$(starship init zsh)"' >> ${HOME}/.zshrc
 
 # Start Zsh when the container runs
 CMD [ "zsh" ]
+
+# Install jupyterlab extensions
+COPY postBuild /tmp/postBuild
+RUN /tmp/postBuild
