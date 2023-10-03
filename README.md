@@ -1,6 +1,8 @@
 Development environment in binder, for the course
 "Aprendizaje Automatico para Cientificos"
 
+Please go to the `lectures` directory. 
+
 Press this link to open an online dev environment (**WARNING**: all files will be lost if you
 close the tab, download them before closing the connection)
 
