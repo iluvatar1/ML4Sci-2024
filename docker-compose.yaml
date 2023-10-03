@@ -1,0 +1,16 @@
+version: '3'
+services:
+  ml4sci:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ml4sci:0.1
+#    env_file:
+#      - .env  # Read environment variables from .env file
+#    volumes:
+#      - ./shared_data:/app/shared_data
+
+#  database:
+#    image: postgres:latest
+#    environment:
+#      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}  # Use the DATABASE_PASSWORD from .env
